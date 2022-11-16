@@ -1,0 +1,50 @@
+.intro__list {
+    margin: 0;
+    padding: 0;
+    max-width: 690px;
+    min-height: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFF;
+    list-style-type: none;
+}
+
+.intro__list li:nth-child(1)::after {
+    content: "11";
+    font-weight: 400;
+}
+
+.intro__list li:nth-child(2)::after {
+    content: "12";
+    font-weight: 400;
+}
+
+.intro__list li:nth-child(3)::after {
+    content: "16";
+    font-weight: 400;
+}
+
+.intro__list li:nth-child(4)::after {
+    content: "105";
+    font-weight: 400;
+}
+
+.intro__list li:nth-child(5)::after {
+    content: "241";
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        max-width: 288px;
+    }
+}
