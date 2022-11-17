@@ -1,16 +1,16 @@
 .intro__list {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 1px;
     max-width: 690px;
-    min-height: 90px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #FFF;
     list-style-type: none;
 }
+
 
 .intro__list li:nth-child(1)::after {
     content: "11";

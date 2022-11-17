@@ -1,26 +1,21 @@
 .place__website {
     margin: 0;
     padding: 0;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: end;
     max-width: 456px;
-    min-height: 46px;
-    /* text-align: left; */
 }
 
 @media screen and (max-width: 768px) {
     .place__website {
         max-width: 352px;
-        min-height: 46px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .place__website {
         max-width: 288px;
-        min-height: 46px;
         margin: 0 16px;
         grid-row: 2/3;
     }

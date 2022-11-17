@@ -2,34 +2,31 @@
     box-sizing: border-box;
     position: relative;
     max-width: 984px;
-    min-height: 1005px;
     padding: 0;
     margin: 0 148px 92px;
     display: flex;
     flex-direction: column;
+
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
-        min-height: 962px;
-        margin-left: 48px;
-        margin-right: 48px;
+        margin: 0 48px 92px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
         max-width: 768px;
-        min-height: 862px;
         margin: 0 0 88px;
+
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead {
         max-width: 320px;
-        min-height: 406px;
         margin-bottom: 64px;
     }
 }

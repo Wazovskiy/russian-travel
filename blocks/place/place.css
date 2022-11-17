@@ -1,9 +1,8 @@
 .place {
     box-sizing: border-box;
     max-width: 984px;
-    /* min-height: 660px; */
     padding: 0;
-    margin: 0 0 80px;
+    margin: 0 auto 80px;
     display: grid;
     grid-template-columns: auto max-content;
     grid-template-rows: max-content max-content;
@@ -14,10 +13,10 @@
     margin-bottom: 0;
 }
 
+
 @media screen and (max-width: 1024px) {
     .place {
         max-width: 928px;
-        /* min-height: 640px; */
         gap: 48px 32px;
     }
 }
@@ -25,8 +24,9 @@
 @media screen and (max-width: 768px) {
     .place {
         max-width: 720px;
-        /* min-height: 581px; */
-        margin-bottom: 73px;
+        padding: 0;
+        margin: 0 auto 73px;
+        margin-right: 1px;
         gap: 48px 28px;
     }
 }
@@ -34,8 +34,8 @@
 @media screen and (max-width: 320px) {
     .place {
         max-width: 320px;
-        /* min-height: 1042px; */
-        margin-bottom: 50px;
+        padding: 0;
+        margin: 0 0 48px;
         grid-template-columns: 1fr;
         grid-template-rows: max-content;
         row-gap: 32px;

@@ -3,7 +3,6 @@
     padding: 0;
     margin-bottom: 40px;
     max-width: 690px;
-    /* min-height: 58px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -21,7 +20,6 @@
 @media screen and (max-width: 320px) {
     .intro__title {
         max-width: 288px;
-        min-height: 70px;
         font-size: 32px;
         line-height: 35px;
     }

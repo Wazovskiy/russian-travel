@@ -1,9 +1,7 @@
 .header__lang-link {
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin: 0;
     padding: 0;
-    /* width: 30px;
-    height: 28px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -11,15 +9,16 @@
     line-height: 28px;
     color: #FFF;
     text-decoration: none;
+    transition: opacity .5s ease;
 }
 
 .header__lang-link:first-of-type {
-    margin-right: 18px;
+    margin-right: 8px;
     text-decoration: underline;
 }
 
-.header__lang-link:hover {
-    text-decoration: underline;
+.header__lang-link:last-of-type {
+    padding-left: 6px;
 }
 
 @media screen and (max-width: 320px) {

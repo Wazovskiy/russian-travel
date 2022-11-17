@@ -1,8 +1,7 @@
 .lead__title {
-    margin: 0 132px 32px;
+    margin: 0 auto 32px;
     padding: 0;
     max-width: 720px;
-    /* height: 200px; */
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
@@ -10,25 +9,24 @@
     color: #FFF;
 }
 
+.lead__title:first-letter {
+    text-transform: uppercase
+}
+
 @media screen and (max-width: 1024px) {
-    .lead__title {
-        margin-right: 104px;
-        margin-left: 104px;
-    }
+    .lead__title {}
 }
 
 @media screen and (max-width: 768px) {
     .lead__title {
-        margin-right: 24px;
-        margin-left: 24px;
+        margin: 0 auto 32px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .lead__title {
         max-width: 288px;
-        /* height: 88px; */
-        margin: 0 16px 16px;
+        margin: 0 auto 16px;
         font-size: 40px;
         line-height: 44px;
     }

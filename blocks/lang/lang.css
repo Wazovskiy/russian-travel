@@ -1,4 +1,9 @@
 .lang {
-    display: flex;
-    flex-direction: row;
+    padding-bottom: 3px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lang {
+        padding-bottom: 6px;
+    }
 }
