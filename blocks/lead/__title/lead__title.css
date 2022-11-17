@@ -10,7 +10,7 @@
 }
 
 .lead__title:first-letter {
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1024px) {
