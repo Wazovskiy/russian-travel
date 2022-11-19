@@ -9,17 +9,12 @@
     line-height: 28px;
     color: #FFF;
     text-decoration: none;
-    transition: opacity .5s ease;
-}
+   
+       }
 
-.header__lang-link:first-of-type {
-    margin-right: 8px;
-    text-decoration: underline;
-}
-
-.header__lang-link:last-of-type {
+/* .header__lang-link:last-of-type {
     padding-left: 6px;
-}
+} */
 
 @media screen and (max-width: 320px) {
     .header__lang-link {

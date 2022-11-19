@@ -1,12 +1,13 @@
 .intro__text {
     padding: 0;
-    margin: 0 0 32px;
-    max-width: 690px;
+    margin: 0 auto 32px;
+    width: 100%;
+    /* max-width: 690px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 1.63em;
     color: #FFF;
 }
 

@@ -1,5 +1,12 @@
 .lang {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     padding-bottom: 3px;
+    gap: 19px;
 }
 
 @media screen and (max-width: 1024px) {

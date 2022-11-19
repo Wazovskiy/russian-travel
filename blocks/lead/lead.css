@@ -1,12 +1,12 @@
 .lead {
-    box-sizing: border-box;
+    box-sizing: content-box;
     position: relative;
     max-width: 984px;
     padding: 0;
     margin: 0 148px 92px;
     display: flex;
     flex-direction: column;
-
+    align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -20,7 +20,6 @@
     .lead {
         max-width: 768px;
         margin: 0 0 88px;
-
     }
 }
 

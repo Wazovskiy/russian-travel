@@ -7,6 +7,13 @@
     letter-spacing: 0.2em;
     color: #AAA;
     padding: 0;
-    margin: 0 0 12px;
+    /* margin: 0 0 9px; */
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 320px) {
+    .place__url-heading {
+        max-width: 200px;
+        margin: 0 0 5px;
+    }
 }
