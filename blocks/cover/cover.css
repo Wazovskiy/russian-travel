@@ -3,10 +3,10 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    /* align-items: stretch; */
     padding: 0;
     margin: 0 auto 92px;
     max-width: 1184px;
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,7 +19,7 @@
     .cover {
         max-width: 768px;
         min-height: 480px;
-        margin: 0 0 89px;
+        margin: 0 1px 89px;
     }
 }
 
@@ -27,6 +27,6 @@
     .cover {
         max-width: 320px;
         min-height: 200px;
-        margin: 0 0 64px;
+        margin: 0 1px 64px;
     }
 }

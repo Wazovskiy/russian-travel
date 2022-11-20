@@ -14,7 +14,8 @@
        }
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 497px) {
     .place__image {
         height: fit-content;
         grid-row: 3/4;

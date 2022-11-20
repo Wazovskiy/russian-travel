@@ -1,6 +1,6 @@
 .intro__text {
     padding: 0;
-    margin: 0 auto 32px;
+    margin: 0 1px 32px;
     width: 100%;
     /* max-width: 690px; */
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -11,9 +11,44 @@
     color: #FFF;
 }
 
+@media screen and (max-width: 921px) {
+    .intro__text {
+        max-width: 720px;
+       margin: 0 0 32px; 
+    }
+}
+
 @media screen and (max-width: 768px) {
     .intro__text {
         max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 763px) {
+    .intro__text {
+        max-width: 678px;
+        margin: 0 0 32px;
+            }
+}
+@media screen and (max-width: 722px) {
+    .intro__text {
+           max-width: 600px;
+    }
+}
+@media screen and (max-width: 649px) {
+    .intro__text {
+           max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .intro__text {
+           max-width: 350px;
+    }
+}
+@media screen and (max-width: 387px) {
+    .intro__text {
+           max-width: 288px;
     }
 }
 

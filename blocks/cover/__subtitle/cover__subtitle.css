@@ -8,7 +8,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-align: center;
+    /* text-align: center; */
     color: #FFF;
 }
 
@@ -24,6 +24,15 @@
     }
 } */
 
+@media screen and (max-width: 506px) {
+    .cover__subtitle {
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         /* margin: 0 auto 33px; */
@@ -31,5 +40,9 @@
         font-size: 14px;
         line-height: 16px;
         text-align: center;
+        margin: 0;
+        
+        
+   
     }
 }

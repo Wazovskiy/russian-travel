@@ -16,6 +16,25 @@
     margin: 0;
 }
 
+@media screen and (max-width: 640px) {
+    .footer__link {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .footer__link:last-of-type {
+        margin-right: 14px;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    .footer__link {
+        font-size: 18px;
+        line-height: 18px;
+        /* margin: 0 0 32px; */
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__link {
         font-size: 24px;

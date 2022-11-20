@@ -10,6 +10,9 @@
     font-size: 18px;
     line-height: 1.63em;
     color: #FFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .place__paragraph:last-of-type {
@@ -19,8 +22,34 @@
 @media screen and (max-width: 1024px) {
     .place__paragraph {
         max-width: 456px;
+
     }
 }
+
+@media screen and (max-width: 976px) {
+    .place__paragraph {
+        max-width: 430px;
+        font-size: 16px;
+        margin: 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .place__paragraph {
+        max-width: 400px;
+        font-size: 16px;
+        margin: 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 861px) {
+    .place__paragraph {
+        max-width: 352px;
+        font-size: 16px;
+        margin: 0 0 24px;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .place__paragraph {
@@ -30,11 +59,42 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .place__paragraph {
+        max-width: 320px;
+        font-size: 16px;
+        margin: 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 617px) {
+    .place__paragraph {
+        max-width: 295px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .place__paragraph {
+        max-width: 200px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    .place__paragraph {
+        max-width: 290px;
+        font-size: 16px;
+        margin: 1px auto 20px;
+        margin-left: 15px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__paragraph {
         max-width: 288px;
-        font-size: 16px;
+        /* font-size: 16px; */
         margin: 1px auto 25px;
-        margin-left: 15px;
+        /* margin-left: 15px; */
     }
 }

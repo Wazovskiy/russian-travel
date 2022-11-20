@@ -17,6 +17,24 @@
     }
 }
 
+@media screen and (max-width: 722px) {
+    .intro__title {
+        max-width: 500px;
+        /* margin: 28px 24px 48px; */
+        font-size: 40px;
+        line-height: 45px; 
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .intro__title {
+        max-width: 350px;
+        /* margin: 28px 24px 48px; */
+        font-size: 32px;
+        line-height: 35px; 
+    }
+}
+
 @media screen and (max-width: 320px) {
     .intro__title {
         max-width: 288px;

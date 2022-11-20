@@ -13,9 +13,41 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 920px) {
+    .lead__title {
+        margin: 0 0 32px;
+  
+    }
+} 
+
 @media screen and (max-width: 768px) {
     .lead__title {
-        margin: 0 auto 32px;
+                    margin: 0 auto 32px;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .lead__title {
+        max-width: 500px;
+             font-size: 60px;
+        line-height: 60px; 
+    }
+}
+
+@media screen and (max-width: 588px) {
+    .lead__title  {
+        max-width: 350px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .lead__title  {
+        max-width: 295px;
+        margin: 0 auto 20px;
+        font-size: 42px;
+        line-height: 46px;
     }
 }
 

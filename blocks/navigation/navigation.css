@@ -3,16 +3,23 @@
     padding: 0;
     display: flex;
     justify-content: flex-start;
-    /* align-items: flex-end; */
     list-style-type: none;
     text-decoration: none;
     gap: 19px;
 }
 
+@media screen and (max-width: 497px) {
+    .navigation {
+        flex-direction: column;
+        gap: 25px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .navigation {
-        display: flex;
-        flex-direction: column;
-        gap: 31px;
+        margin-left: 2px;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 31.5px;
     }
 }

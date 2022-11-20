@@ -5,7 +5,13 @@
     flex-direction: column;
     justify-content: end;
     max-width: 456px;
- }
+}
+
+@media screen and (max-width: 976px) {
+    .place__website {
+        max-width: 430px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .place__website {
@@ -13,12 +19,26 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 592px) {
     .place__website {
-        padding: 0;
-        max-width: 288px;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    .place__website {
+        max-width: 300px;
         margin: 0 16px;
         grid-row: 2/3;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        max-width: 288px;
+        /* margin: 0 16px; */
+        /* grid-row: 2/3; */
         align-items: flex-start;
     }
 }
