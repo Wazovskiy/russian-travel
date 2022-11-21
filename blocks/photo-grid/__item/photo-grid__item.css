@@ -1,5 +1,5 @@
 .photo-grid__item {
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: auto;
     /* object-fit: contain; */
 }
