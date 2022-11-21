@@ -6,16 +6,6 @@
     src: url("./fonts/Inter-Regular.woff2") format("woff2"),
         url("./fonts/Inter-Regular.woff") format("woff");
 }
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(".") format("woff2"),
-       url("Inter-SemiBold.woff?v=3.19") format("woff");
-}
-
-
 
 @font-face {
     font-family: 'Inter';
